@@ -33,6 +33,7 @@ github_username:  okorienev
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 minima:
   skin: dark
