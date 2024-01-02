@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Sporadically writing guides for running d&d online (currently on Foundry VTT).
 
   Maybe some day there will also be different DMing guides & other TTRPG-related stuff ¯\_(ツ)_/¯
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/artificer-den" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alexkorienev
 github_username:  okorienev
