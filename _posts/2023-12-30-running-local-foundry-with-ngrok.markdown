@@ -39,7 +39,7 @@ In case if you haven't set up foundry, please follow [Foundry Installation Guide
         - you can use [This guide](https://pureinfotech.com/create-custom-environment-variables-windows-10/) or any other to find the environment variables
         - In my case Path looks like this:
 
-![Environment variables](/assets/ugc/2023-12-30-running-local-foundry-with-ngrok/environment.png)
+![Environment variables]({{ site.baseurl }}/assets/ugc/2023-12-30-running-local-foundry-with-ngrok/environment.png)
 
 * To check that ngrok works, open terminal `cmd.exe` (for Windows) and type `ngrok -v`, it should return version of installed ngrok agent
 
@@ -47,13 +47,13 @@ In case if you haven't set up foundry, please follow [Foundry Installation Guide
 
 * Copy the auth command & run it in terminal
 
-![Auth command location](/assets/ugc/2023-12-30-running-local-foundry-with-ngrok/auth.png)
+![Auth command location]({{ site.baseurl }}/assets/ugc/2023-12-30-running-local-foundry-with-ngrok/auth.png)
 
 * Run Foundry VTT
 
 * Run `ngrok http 30000`, you should see the following interface:
 
-![Ngrok interface](/assets/ugc/2023-12-30-running-local-foundry-with-ngrok/ngrok.png)
+![Ngrok interface]({{ site.baseurl }}/assets/ugc/2023-12-30-running-local-foundry-with-ngrok/ngrok.png)
 
 * Share highlighted link with your players, be cautious because it changes between ngrok runs
 
